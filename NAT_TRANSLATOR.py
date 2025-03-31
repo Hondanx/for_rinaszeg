@@ -12,8 +12,8 @@ import logging
 logging.basicConfig(filename="nat_config.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Active Directory Configuration (Modify as needed)
-AD_SERVER = "ldap://SELF-AD"
-AD_DOMAIN = "self.local"
+AD_SERVER = "ldap://Your AD SERVER NAME"
+AD_DOMAIN = "YOUR DOMAIN NAME"
 
 # Function to validate IP address
 def is_valid_ip(ip):
